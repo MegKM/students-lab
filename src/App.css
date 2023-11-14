@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  height: 100vh;
+  padding: 20px;
+  font-family:'Courier New', Courier, monospace;
+
+}
+
+.main{
+  display: grid;
+  grid-template-columns: 6fr 1fr;
+}
+
+.biography {
+  grid-column: 1;
+}
+
